@@ -1,0 +1,21 @@
+$bg: rgba(#282828, 0.1);
+$fg: #d4be98;
+$border_col: rgba(#5a524c, 0.7);
+$shadow: rgba(#1b1b1b, 0.3);
+
+//Global Styles
+.bar {
+  background-color: transparent;
+}
+
+.workspaces {
+  background-color: $bg;
+  color: $fg;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  padding: 6px 20px 4px 20px;
+  min-height: 25px;
+  border: 2px solid $border_col;
+  box-shadow: 2px 2px 2px $shadow;
+}
